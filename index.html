@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aroxe Solutions · Digital Services That Deliver</title>
+  <meta name="description" content="Aroxe Solutions is a digital agency offering web development, app development, UI/UX design, software development, quality assurance, and marketing & outreach services. We transform ideas into digital reality." />
+  <meta name="keywords" content="web development, app development, UI/UX design, software development, QA, marketing, digital agency, Aroxe Solutions" />
+  <link rel="canonical" href="https://www.aroxesolutions.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Aroxe Solutions · Transforming Ideas Into Digital Reality" />
+  <meta property="og:description" content="A full-service digital agency offering web development, app development, design, software, QA, and marketing services." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.aroxesolutions.com/" />
+  <meta property="og:site_name" content="Aroxe Solutions" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Aroxe Solutions · Transforming Ideas Into Digital Reality" />
+  <meta name="twitter:description" content="A full-service digital agency offering web development, app development, design, software, QA, and marketing services." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Aroxe Solutions",
+    "url": "https://www.aroxesolutions.com/",
+    "description": "A full-service digital agency offering web development, app development, UI/UX design, custom software, quality assurance, and marketing & outreach services.",
+    "knowsAbout": [
+      "web development",
+      "app development",
+      "UI/UX design",
+      "custom software development",
+      "quality assurance",
+      "marketing and outreach"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header class="header" id="top">
+    <div class="header-inner">
+      <a href="#top" class="logo">
+        Aroxe<span class="logo-accent">.</span>
+      </a>
+
+      <nav class="nav-links" id="navlinks">
+        <a href="#services" class="nav-link">services</a>
+        <a href="#why-us" class="nav-link">why us</a>
+        <a href="#process" class="nav-link">process</a>
+        <a href="#experience" class="nav-link">experience</a>
+        <a href="#reviews" class="nav-link">reviews</a>
+      </nav>
+
+      <span class="header-spacer"></span>
+
+      <button class="menu-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">
+        menu
+      </button>
+
+      <a href="#contact" class="btn btn-primary" style="display:none" id="header-cta">contact</a>
+      <a href="#contact" class="btn btn-primary desktop-only">contact</a>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+    <div class="mobile-nav-inner">
+      <div class="mobile-nav-header">
+        <span class="logo">Aroxe<span class="logo-accent">.</span></span>
+        <button class="mobile-close-btn" id="mobile-close" aria-label="Close menu">✕</button>
+      </div>
+      <nav class="mobile-nav-links">
+        <a href="#services" class="mobile-nav-link">Services</a>
+        <a href="#why-us" class="mobile-nav-link">Why Us</a>
+        <a href="#process" class="mobile-nav-link">Process</a>
+        <a href="#experience" class="mobile-nav-link">Experience</a>
+        <a href="#reviews" class="mobile-nav-link">Reviews</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </nav>
+      <div class="mobile-nav-cta">
+        <a href="#contact" class="btn btn-primary mobile-nav-link" style="width:100%;justify-content:center;">get started</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="hero section" id="hero">
+      <div class="hero-shapes">
+        <div class="floating-shape"></div>
+        <div class="floating-shape"></div>
+        <div class="floating-shape"></div>
+      </div>
+      <div class="hero-inner">
+        <div class="hero-content">
+          <p class="hero-tag">digital agency · your growth partner</p>
+          <h1 class="hero-title">
+            transforming ideas<br/>into digital <span class="text-brand">reality.</span>
+          </h1>
+          <p class="text-body">
+            Tell us what you envision. We handle every technical detail — designing, building, testing, launching, and growing your digital presence so you can focus on what matters most.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">start a project</a>
+            <a href="#services" class="btn btn-secondary">our services</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <svg class="hero-illustration" viewBox="0 0 520 400" role="img" aria-label="Abstract digital workspace illustration">
+            <!-- Monitor -->
+            <rect x="100" y="40" width="320" height="210" rx="16" fill="#fff" stroke="#1A1A1A" stroke-width="2.2"/>
+            <rect x="114" y="54" width="292" height="168" rx="8" fill="#FFFDD0"/>
+
+            <!-- Screen Content -->
+            <rect x="114" y="54" width="292" height="168" rx="8" fill="#967BB6" opacity="0.92">
+              <animate attributeName="opacity" values="0;0.92" dur="1.2s" fill="freeze"/>
+            </rect>
+
+            <!-- UI Elements on screen -->
+            <g opacity="0">
+              <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/>
+              <!-- Nav dots -->
+              <circle cx="134" cy="74" r="4" fill="#fff"/>
+              <circle cx="150" cy="74" r="4" fill="#fff"/>
+              <circle cx="166" cy="74" r="4" fill="#fff"/>
+              <!-- Title bar -->
+              <rect x="134" y="94" width="140" height="12" rx="6" fill="#fff"/>
+              <!-- Text lines -->
+              <rect x="134" y="116" width="100" height="8" rx="4" fill="#fff" opacity="0.6"/>
+              <rect x="134" y="132" width="120" height="8" rx="4" fill="#fff" opacity="0.6"/>
+              <!-- Chart bars -->
+              <rect x="134" y="162" width="28" height="40" rx="4" fill="#fff" opacity="0.85">
+                <animate attributeName="height" values="0;40" dur="0.6s" begin="1.2s" fill="freeze"/>
+                <animate attributeName="y" values="202;162" dur="0.6s" begin="1.2s" fill="freeze"/>
+              </rect>
+              <rect x="170" y="150" width="28" height="52" rx="4" fill="#fff" opacity="0.85">
+                <animate attributeName="height" values="0;52" dur="0.6s" begin="1.35s" fill="freeze"/>
+                <animate attributeName="y" values="202;150" dur="0.6s" begin="1.35s" fill="freeze"/>
+              </rect>
+              <rect x="206" y="170" width="28" height="32" rx="4" fill="#fff" opacity="0.85">
+                <animate attributeName="height" values="0;32" dur="0.6s" begin="1.5s" fill="freeze"/>
+                <animate attributeName="y" values="202;170" dur="0.6s" begin="1.5s" fill="freeze"/>
+              </rect>
+              <rect x="242" y="144" width="28" height="58" rx="4" fill="#fff" opacity="0.85">
+                <animate attributeName="height" values="0;58" dur="0.6s" begin="1.65s" fill="freeze"/>
+                <animate attributeName="y" values="202;144" dur="0.6s" begin="1.65s" fill="freeze"/>
+              </rect>
+              <!-- Line chart -->
+              <polyline points="310,190 340,170 370,178 390,148" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+                <animate attributeName="stroke-dashoffset" values="200;0" dur="0.8s" begin="1.8s" fill="freeze"/>
+                <animate attributeName="stroke-dasharray" values="200;200" dur="0.01s" begin="0s" fill="freeze"/>
+              </polyline>
+              <circle cx="390" cy="148" r="5" fill="#967BB6" stroke="#fff" stroke-width="2">
+                <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.4s" fill="freeze"/>
+              </circle>
+            </g>
+
+            <!-- Monitor stand -->
+            <circle cx="260" cy="234" r="4.5" fill="#1A1A1A"/>
+            <path d="M240 250 h40 v30 h-40 z" fill="#fff" stroke="#1A1A1A" stroke-width="2.2"/>
+            <rect x="210" y="278" width="100" height="12" rx="6" fill="#fff" stroke="#1A1A1A" stroke-width="2.2"/>
+
+            <!-- Floating elements -->
+            <g>
+              <rect x="30" y="120" width="56" height="56" rx="12" fill="#967BB6" opacity="0.15">
+                <animate attributeName="y" values="120;110;120" dur="4s" repeatCount="indefinite"/>
+              </rect>
+              <rect x="434" y="80" width="48" height="48" rx="24" fill="#FFFDD0" stroke="#967BB6" stroke-width="2" opacity="0.6">
+                <animate attributeName="y" values="80;92;80" dur="5s" repeatCount="indefinite"/>
+              </rect>
+              <rect x="450" y="220" width="40" height="40" rx="8" fill="#967BB6" opacity="0.12" transform="rotate(15 470 240)">
+                <animate attributeName="opacity" values="0.12;0.22;0.12" dur="3s" repeatCount="indefinite"/>
+              </rect>
+              <!-- Code bracket -->
+              <text x="42" y="155" font-family="monospace" font-size="22" fill="#967BB6" opacity="0.6">&lt;/&gt;</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVICES
+         ============================================================ -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">what we do</p>
+          <h2>end-to-end digital<br/>services that <span style="color:rgba(255,255,255,0.55)">deliver.</span></h2>
+        </div>
+
+        <div class="services-grid">
+          <!-- Web Development -->
+          <article class="service-card reveal reveal-delay-1">
+            <span class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </span>
+            <h3>Web Development</h3>
+            <p>Custom websites and web applications built with modern technologies — fast, responsive, and optimized for conversions.</p>
+            <span class="card-arrow">→</span>
+          </article>
+
+          <!-- App Development -->
+          <article class="service-card reveal reveal-delay-2">
+            <span class="service-icon">
+              <svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            </span>
+            <h3>App Development</h3>
+            <p>Native and cross-platform mobile applications for iOS and Android that your users will love to use every day.</p>
+            <span class="card-arrow">→</span>
+          </article>
+
+          <!-- UI/UX Design -->
+          <article class="service-card reveal reveal-delay-3">
+            <span class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+            </span>
+            <h3>UI/UX Design</h3>
+            <p>User-centered design systems and interfaces that feel intuitive, look stunning, and drive engagement at every touchpoint.</p>
+            <span class="card-arrow">→</span>
+          </article>
+
+          <!-- Software Development -->
+          <article class="service-card reveal reveal-delay-4">
+            <span class="service-icon">
+              <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="14" y1="4" x2="10" y2="20"/></svg>
+            </span>
+            <h3>Software Development</h3>
+            <p>Custom enterprise solutions and SaaS platforms engineered for scale, security, and long-term maintainability.</p>
+            <span class="card-arrow">→</span>
+          </article>
+
+          <!-- Quality Assurance -->
+          <article class="service-card reveal reveal-delay-5">
+            <span class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+            </span>
+            <h3>Quality Assurance</h3>
+            <p>Rigorous manual and automated testing that catches every bug before your users do. Ship with absolute confidence.</p>
+            <span class="card-arrow">→</span>
+          </article>
+
+          <!-- Marketing & Outreach -->
+          <article class="service-card reveal reveal-delay-6">
+            <span class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </span>
+            <h3>Marketing & Outreach</h3>
+            <p>Strategic digital marketing, SEO, social media campaigns, and outreach programs that put your brand in front of the right audience.</p>
+            <span class="card-arrow">→</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHY US
+         ============================================================ -->
+    <section class="section" id="why-us">
+      <div class="container">
+        <div class="why-us-grid">
+          <div class="why-us-text">
+            <div class="section-head">
+              <p class="section-tag">why us</p>
+              <h2>we don't just deliver. we work as <span class="text-brand">partners.</span></h2>
+            </div>
+            <p class="text-body">
+              We stay close to your project after launch — refining, optimizing, and scaling it so it performs flawlessly when it matters most and earns real loyalty from the people using it.
+            </p>
+            <div class="why-cta">
+              <a href="#contact" class="btn btn-primary">talk to our team</a>
+            </div>
+          </div>
+
+          <div class="features-list">
+            <div class="feature-card reveal">
+              <span class="feature-check">
+                <svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>
+              </span>
+              <div>
+                <h3>Reliable at Scale</h3>
+                <p>We stress-test against your busiest scenarios, so launch days and campaigns run without a hitch.</p>
+              </div>
+            </div>
+
+            <div class="feature-card reveal reveal-delay-1">
+              <span class="feature-check">
+                <svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>
+              </span>
+              <div>
+                <h3>Quality-First Approach</h3>
+                <p>Every change runs through automated checks first. You review polished work, never broken drafts.</p>
+              </div>
+            </div>
+
+            <div class="feature-card reveal reveal-delay-2">
+              <span class="feature-check">
+                <svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>
+              </span>
+              <div>
+                <h3>Built Around Your Users</h3>
+                <p>We watch real people interact with your product and fix friction points before they reach your inbox.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SHOWCASE BANNER
+         ============================================================ -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="showcase-banner reveal">
+          <p class="section-tag showcase-tag">what we bring</p>
+          <h2 class="showcase-title">
+            we bring the expertise. <span class="dim">you bring the vision.</span>
+          </h2>
+          <p class="showcase-desc">
+            One team, built to deliver. We keep the engines running — design, code, testing, and marketing — so your biggest launch feels as smooth as a quiet Tuesday.
+          </p>
+          <div class="tech-grid">
+            <span class="tech-pill">react</span>
+            <span class="tech-pill">node.js</span>
+            <span class="tech-pill">flutter</span>
+            <span class="tech-pill">python</span>
+            <span class="tech-pill">aws</span>
+            <span class="tech-pill">figma</span>
+            <span class="tech-pill">next.js</span>
+            <span class="tech-pill">firebase</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROCESS
+         ============================================================ -->
+    <section class="process section" id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">our process</p>
+          <h2>four steps, idea<br/>to launch day.</h2>
+        </div>
+
+        <div class="process-grid">
+          <div class="process-step reveal reveal-delay-1">
+            <span class="step-number">01</span>
+            <h3>Discovery Call</h3>
+            <p>A relaxed conversation about your goals, your users, and the problem you want solved. Bring the idea — we bring the questions.</p>
+          </div>
+
+          <div class="process-step reveal reveal-delay-2">
+            <span class="step-number">02</span>
+            <h3>Strategy & Plan</h3>
+            <p>You receive scope, timeline, and a clear price on one page — written so anyone on your team can understand it.</p>
+          </div>
+
+          <div class="process-step reveal reveal-delay-3">
+            <span class="step-number">03</span>
+            <h3>Build & Iterate</h3>
+            <p>Every week you see working progress you can click through. You can steer direction at any point along the way.</p>
+          </div>
+
+          <div class="process-step reveal reveal-delay-4">
+            <span class="step-number">04</span>
+            <h3>Launch & Support</h3>
+            <p>We launch it, monitor real traffic, and stay on afterwards to keep it fast, secure, and continuously improving.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         STATS / EXPERIENCE
+         ============================================================ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">our experience</p>
+          <h2>numbers that speak<br/>for themselves.</h2>
+        </div>
+
+        <div class="stats-grid reveal">
+          <div class="stat-card">
+            <b class="stat-number" data-count="25" data-suffix="+">0</b>
+            <span class="stat-label">projects delivered</span>
+          </div>
+          <div class="stat-card">
+            <b class="stat-number" data-count="15" data-suffix="+">0</b>
+            <span class="stat-label">happy clients</span>
+          </div>
+          <div class="stat-card">
+            <b class="stat-number" data-count="99.9" data-suffix="%">0</b>
+            <span class="stat-label">uptime maintained</span>
+          </div>
+          <div class="stat-card">
+            <b class="stat-number" data-count="24" data-suffix="/7">0</b>
+            <span class="stat-label">support available</span>
+          </div>
+        </div>
+
+        <div class="clients-grid reveal reveal-delay-2">
+          <div class="client-badge"><i></i>Tech Innovations Co.</div>
+          <div class="client-badge"><i></i>Global Retail Group</div>
+          <div class="client-badge"><i></i>HealthBridge Solutions</div>
+          <div class="client-badge"><i></i>Urban Developers LLC</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         TESTIMONIALS
+         ============================================================ -->
+    <section class="testimonials section" id="reviews">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">client reviews</p>
+          <h2>what our clients say<br/>months later.</h2>
+        </div>
+
+        <div class="testimonial-slider reveal">
+          <div class="testimonial-track-wrapper">
+            <div class="testimonial-track" id="testimonial-track">
+              <article class="testimonial-slide" aria-hidden="false">
+                <p class="testimonial-quote">"Our e-commerce platform used to crash every sale weekend. Since Aroxe rebuilt it, we haven't had a single incident in over a year."</p>
+                <div class="testimonial-author">
+                  <span class="author-avatar">SK</span>
+                  <div>
+                    <b class="author-name">Sara Khan</b>
+                    <span class="author-role">Operations Director, StyleHub Retail</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="testimonial-slide" aria-hidden="true">
+                <p class="testimonial-quote">"I'm not a tech person, and I never once felt lost. They explained every decision clearly and delivered ahead of schedule."</p>
+                <div class="testimonial-author">
+                  <span class="author-avatar">AH</span>
+                  <div>
+                    <b class="author-name">Ahmed Hassan</b>
+                    <span class="author-role">Founder, GreenLeaf Foods</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="testimonial-slide" aria-hidden="true">
+                <p class="testimonial-quote">"They redesigned our entire booking system that three agencies had given up on — and delivered it two weeks early."</p>
+                <div class="testimonial-author">
+                  <span class="author-avatar">MR</span>
+                  <div>
+                    <b class="author-name">Maria Rizvi</b>
+                    <span class="author-role">Head of Digital, MedCare Clinics</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="testimonial-slide" aria-hidden="true">
+                <p class="testimonial-quote">"Their marketing outreach doubled our leads in three months. The weekly updates mean I always know exactly where the budget is going."</p>
+                <div class="testimonial-author">
+                  <span class="author-avatar">FN</span>
+                  <div>
+                    <b class="author-name">Fahad Nawaz</b>
+                    <span class="author-role">Managing Partner, Skyline Realty</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="slider-controls">
+            <div class="slider-dots">
+              <button class="dot active" type="button" aria-label="Review 1"></button>
+              <button class="dot" type="button" aria-label="Review 2"></button>
+              <button class="dot" type="button" aria-label="Review 3"></button>
+              <button class="dot" type="button" aria-label="Review 4"></button>
+            </div>
+            <button class="slider-btn" id="prev-btn" type="button" aria-label="Previous review">
+              <svg viewBox="0 0 24 24"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+            </button>
+            <button class="slider-btn" id="next-btn" type="button" aria-label="Next review">
+              <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT
+         ============================================================ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">reach out</p>
+          <h2>tell us what you<br/>want to build.</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-form-panel reveal">
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name">your name</label>
+                <input type="text" id="name" name="name" placeholder="e.g. Amina Yousaf" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">email</label>
+                <input type="email" id="email" name="email" placeholder="you@company.com" required />
+              </div>
+
+              <div class="form-group">
+                <label for="service">what do you need</label>
+                <div class="select-wrapper">
+                  <select id="service" name="service">
+                    <option>Web Development</option>
+                    <option>App Development</option>
+                    <option>UI/UX Design</option>
+                    <option>Software Development</option>
+                    <option>Quality Assurance</option>
+                    <option>Marketing & Outreach</option>
+                    <option>Not sure yet, let's talk</option>
+                  </select>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">describe your project</label>
+                <textarea id="message" name="message" placeholder="Tell us about your idea, timeline, and any specific requirements..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">send message</button>
+              <p class="form-hint">We reply within one working day. No sales pitch, no chasing.</p>
+            </form>
+          </div>
+
+          <div class="contact-info-panel reveal reveal-delay-2">
+            <div class="info-table">
+              <div class="info-row">
+                <span class="info-label">email</span>
+                <span class="info-value">
+                  <a href="mailto:hello@aroxesolutions.com">hello@aroxesolutions.com</a>
+                </span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">phone</span>
+                <span class="info-value">
+                  <a href="tel:+923001234567">+92 300 123 4567</a>
+                </span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">hours</span>
+                <span class="info-value">
+                  <span style="display:block">Monday to Friday, 9:00 – 18:00 PKT</span>
+                  <span style="display:block">Support available 24/7 for active projects</span>
+                </span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">socials</span>
+                <span class="info-value">
+                  <a href="#" style="margin-right:16px">LinkedIn</a>
+                  <a href="#" style="margin-right:16px">Instagram</a>
+                  <a href="#">Twitter</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="footer-brand-name">Aroxe<span class="logo-accent">.</span></span>
+        <p class="footer-desc">
+          A digital agency for businesses that want real results — not just deliverables. We design, build, test, and market products that people genuinely love to use.
+        </p>
+        <address>
+          <span style="display:block">Aroxe Solutions</span>
+          <span style="display:block">Pakistan</span>
+        </address>
+      </div>
+
+      <div class="footer-links">
+        <h4>explore</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#process">Our Process</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>get in touch</h4>
+        <ul>
+          <li><a href="mailto:hello@aroxesolutions.com">hello@aroxesolutions.com</a></li>
+          <li><a href="tel:+923001234567">+92 300 123 4567</a></li>
+          <li>Monday to Friday, 9:00 – 18:00 PKT</li>
+          <li><a href="#contact">Start a project →</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Aroxe Solutions</span>
+      <span>transforming ideas into digital reality</span>
+    </div>
+  </footer>
+
+  <!-- Hide duplicate desktop CTA via CSS -->
+  <style>
+    .desktop-only { display: none; }
+    @media (min-width: 769px) {
+      .desktop-only { display: inline-flex; }
+    }
+  </style>
+
+  <script src="script.js"></script>
+</body>
+</html>
