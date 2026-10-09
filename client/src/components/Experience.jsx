@@ -5,8 +5,8 @@ import useCounterAnimation from '../hooks/useCounterAnimation';
 const Experience = () => {
   const { setRef: setRevealRef } = useScrollReveal();
   
-  const { count: count1, ref: ref1 } = useCounterAnimation(25, 2000, '+');
-  const { count: count2, ref: ref2 } = useCounterAnimation(15, 2000, '+');
+  const { count: count1, ref: ref1 } = useCounterAnimation(25, 2000);
+  const { count: count2, ref: ref2 } = useCounterAnimation(15, 2000);
   const { count: count3, ref: ref3 } = useCounterAnimation(99.9, 2000, '%');
   const { count: count4, ref: ref4 } = useCounterAnimation(24, 2000, '/7');
 
